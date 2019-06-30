@@ -2,13 +2,15 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace NetLore.Data.Migrations.TrackingContext
 {
     [DbContext(typeof(NetLore.Data.Contexts.TrackingContext))]
-    partial class TrackingContextModelSnapshot : ModelSnapshot
+    [Migration("20190630211852_CompanyEntityAdded")]
+    partial class CompanyEntityAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

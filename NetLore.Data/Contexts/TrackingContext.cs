@@ -13,6 +13,7 @@ namespace NetLore.Data.Contexts
 
         public virtual DbSet<Task> Tasks { get; set; }
         public virtual DbSet<TaskList> TaskLists { get; set; }
+        public virtual DbSet<Company> Companies { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
