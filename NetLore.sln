@@ -11,9 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1EA215D3-4D29-41BB-AC8C-60FF0E289FE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetLore.Domain", "NetLore.Domain\NetLore.Domain.csproj", "{43F76699-2A21-41F6-8545-C1AE65AB6C28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetLore.Domain", "NetLore.Domain\NetLore.Domain.csproj", "{43F76699-2A21-41F6-8545-C1AE65AB6C28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetLore.Data", "NetLore.Data\NetLore.Data.csproj", "{560E06D9-DC17-44BD-8C03-0947F1AC80C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetLore.Data", "NetLore.Data\NetLore.Data.csproj", "{560E06D9-DC17-44BD-8C03-0947F1AC80C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetLore.Infrastructure", "NetLore.Infrastructure\NetLore.Infrastructure.csproj", "{22F68E84-C12E-42F8-812A-2DEDF64BE1F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{560E06D9-DC17-44BD-8C03-0947F1AC80C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{560E06D9-DC17-44BD-8C03-0947F1AC80C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{560E06D9-DC17-44BD-8C03-0947F1AC80C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F68E84-C12E-42F8-812A-2DEDF64BE1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F68E84-C12E-42F8-812A-2DEDF64BE1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F68E84-C12E-42F8-812A-2DEDF64BE1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F68E84-C12E-42F8-812A-2DEDF64BE1F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{43F76699-2A21-41F6-8545-C1AE65AB6C28} = {57092962-8C80-45D8-A742-E36B86F435EC}
 		{560E06D9-DC17-44BD-8C03-0947F1AC80C7} = {BD097AE4-091C-4410-BE7E-2C3E2A494EF1}
+		{22F68E84-C12E-42F8-812A-2DEDF64BE1F1} = {C5A34F7D-295B-47BF-A364-564A310CA766}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {546EFD79-9ED3-483C-A22F-913647EEDF04}
