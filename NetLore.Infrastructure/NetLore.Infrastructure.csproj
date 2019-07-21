@@ -6,9 +6,16 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NetLore.Application.Read\NetLore.Application.Read.csproj" />
+    <ProjectReference Include="..\NetLore.Application.Write\NetLore.Application.Write.csproj" />
+    <ProjectReference Include="..\NetLore.Data\NetLore.Data.csproj" />
     <ProjectReference Include="..\NetLore.Domain\NetLore.Domain.csproj" />
   </ItemGroup>
 

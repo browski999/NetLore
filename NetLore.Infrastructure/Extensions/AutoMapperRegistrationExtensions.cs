@@ -1,13 +1,14 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using AutoMapper;
+using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
 namespace NetLore.Infrastructure.Extensions
 {
     public static class AutoMapperRegistrationExtensions
     {
-        public static IServiceCollection AddAutoMapperWithProfiles(this IServiceCollection services, Assembly assembly)
+        public static IServiceCollection AddAutoMapperWithProfiles(this IServiceCollection services)
         {
-            services.AddAutoMapperWithProfiles(Assembly.GetAssembly(typeof(AutoMapperRegistrationExtensions)));
+            services.AddAutoMapper(Assembly.GetAssembly(typeof(AutoMapperRegistrationExtensions)));
             return services;
         }
 

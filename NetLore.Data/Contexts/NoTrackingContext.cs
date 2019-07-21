@@ -17,7 +17,7 @@ namespace NetLore.Data.Contexts
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            builder.ApplyConfigurationsFromAssembly(Assembly.GetAssembly(typeof(NoTrackingContext)));
+            builder.ApplyConfigurationsFromAssembly(Assembly.GetAssembly(typeof(TrackingContext)));
         }
     }
 }
